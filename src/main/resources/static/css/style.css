@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 5vh 5vw;
+    padding: 10vh 5vw;
+    gap: 200px;
+    background-image: url('../assets/images/BackGround.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  padding: 20px;
+}
+
+.cabecario{
+    font-size: 100px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.card{
+    background-color: rgba(255,255,255,0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 80px;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 20px;
+}
+.BackGround{
+    background-image: url('../assets/images/BackGround.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.paragrafo{
+    font-size: 30px;
+    text-align: justify;
+    margin: 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+section{
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+/* Media Queries para Responsividade */
+
+/* Tablets e telas médias */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 3vh 3vw;
+        padding: 8vh 3vw;
+        gap: 150px;
+    }
+    
+    .cabecario {
+        font-size: 60px;
+        padding: 15px 0;
+    }
+    
+    .titulo {
+        font-size: 30px;
+    }
+    
+    .paragrafo {
+        font-size: 20px;
+    }
+    
+    section {
+        font-size: 16px;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    body {
+        margin: 2vh 2vw;
+        padding: 6vh 2vw;
+        gap: 100px;
+    }
+    
+    .cabecario {
+        font-size: 40px;
+        padding: 10px 0;
+    }
+    
+    .titulo {
+        font-size: 24px;
+    }
+    
+    .paragrafo {
+        font-size: 16px;
+    }
+    
+    section {
+        font-size: 14px;
+    }
+    
+    .card {
+        border-radius: 40px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+}
+
+/* Telas muito grandes */
+@media screen and (min-width: 1200px) {
+    body {
+        margin: 8vh 10vw;
+        padding: 12vh 8vw;
+    }
+}

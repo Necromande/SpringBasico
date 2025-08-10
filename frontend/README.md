@@ -19,3 +19,4 @@ Bem-vindo ao banco que promete te fazer perder dinheiro desde 2025!
 
 ---
 *"Aqui o prejuízo é certo!"* - Raskal Bank
+
